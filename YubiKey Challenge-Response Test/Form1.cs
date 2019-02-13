@@ -117,7 +117,7 @@ namespace YubiKey_Challenge_Response_Test
                 else
                 {
                     sw.Stop();
-                    Write("test success but bad response and tooked" + sw.ElapsedMilliseconds + "ms");
+                    Write("test success but bad response and tooked " + sw.ElapsedMilliseconds + "ms");
                 }
             }
             else
